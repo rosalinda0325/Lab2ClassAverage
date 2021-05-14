@@ -12,3 +12,17 @@ print the output to the user
 output will print the average of the class scores
 
 """
+
+
+"""
+
+scores
+interator, sum =0
+loop through test scores
+ accumlator = sum + scores
+ iterator = interator + 1
+output = sum / total scores
+
+print output
+
+"""
