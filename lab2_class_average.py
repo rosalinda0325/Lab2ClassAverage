@@ -26,3 +26,18 @@ output = sum / total scores
 print output
 
 """
+
+scores = [100, 80, 90, 70, 50, 95]
+iterator = 0
+accumulator = 0
+student_count = len(scores)
+print("Length is: ", len(scores))
+
+while iterator < len(scores):
+    print(f"item at index {iterator} is: ", scores[iterator])
+    accumulator = accumulator + scores[iterator]
+    iterator = iterator + 1
+
+print("Sum is: ", accumulator)
+average = accumulator / student_count
+print("The average of total scores in the class is: ", average)
